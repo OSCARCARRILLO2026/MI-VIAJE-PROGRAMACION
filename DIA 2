@@ -1,0 +1,56 @@
+
+#Dia 2
+
+#CONCATENAR Y INTERPOLAR CADENAS DE TEXTO
+
+# Concatenar cadenas de texto
+
+my_str_1 = 'hello'
+my_str_2 = "world"
+
+str_plus_str = my_str_1 + ' ' + my_str_2
+print(str_plus_str)
+
+#Error: TypeError: unsupported operand type(s) for +: 'str' and 'int'
+
+#my_str_3 = 'lobby'
+#my_int_1 = 42
+
+#str_plus_int = my_str_3 + my_int_1
+#print(str_plus_int)
+
+# Para concatenar una cadena de texto con un número, es necesario convertir el número a una cadena de texto utilizando la función str().
+
+name = 'Oscar'
+Age = 17 
+
+str_name_and_age = name + '' + str(Age)
+
+print(str_name_and_age)
+
+
+str_name_and_age_2 = name
+str_name_and_age_2 += str(Age)
+
+print(str_name_and_age_2)
+
+# Interpolacion de cadenas de texto
+
+name = 'Oscar'
+Age = 17 
+
+str_name_and_age_3 = f'My name is {name} and  I am {Age} years old'
+print(str_name_and_age_3)   
+
+#Nota: Cada aprendes algo nuevo, espero ese dia en el que me gradue y me sienta orgulloso de mi mismo, sere el mejor.
+
+#Segunda Interpolacion de cadenas de texto
+
+num1 = 8
+num2 =  9
+
+str_sum = f'mi prima tiene {num1} años y mi primo tiene {num2} años, en total tienen {num1 + num2} años'
+print(str_sum)
+
+#Corte de cadenas de texto 
+
